@@ -1,15 +1,20 @@
-# git
-
-> 仓库名称待确定，确定后会一并更新。
+# Shen
 
 ## 简介
 
-这是一个新初始化的 Git 仓库。
+本仓库用于记录和整理实践过程中的代码与笔记。
+
+## 目录结构
+
+```text
+.
+└── README.md
+```
 
 ## 使用
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/xiaoshen02/Shen.git
 ```
 
 ## 许可证
