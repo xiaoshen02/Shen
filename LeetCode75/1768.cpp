@@ -33,3 +33,25 @@ public:
         return word;
     }
 };
+//更优解
+class Solution1 {
+public:
+    string mergeAlternately(string word1, string word2) {
+        string res;
+        res.reserve(word1.size() + word2.size());//预留空间
+
+        int n = min(word1.size(), word2.size());
+        for (int i = 0; i < n; ++i) {
+            res.push_back(word1[i]);
+            res.push_back(word2[i]);
+        }
+
+        if (word1.size() > word2.size()) {
+            res += word1.substr(n);//substr()从一个字符串中截取一段，返回它作为新的字符串,n表示起始位置
+        } else {
+            res += word2.substr(n);
+        }
+
+        return res;
+    }
+};
