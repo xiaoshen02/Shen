@@ -1,0 +1,16 @@
+# ---- 编译产物（不应该进仓库）----
+*.exe
+*.o
+*.obj
+*.out
+*.ilk
+*.pdb
+
+# ---- 编辑器与工具配置（个人偏好，因人而异）----
+.vscode/
+.mimocode/
+
+# ---- 系统生成的文件 ----
+Thumbs.db
+Desktop.ini
+.DS_Store
