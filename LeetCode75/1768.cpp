@@ -54,4 +54,4 @@ public:
 
         return res;
     }
-};
+};//OK
