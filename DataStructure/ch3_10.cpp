@@ -14,14 +14,15 @@ typedef struct LNode
     struct LNode *next;
 } LNode, *LinkList;
 
-//空表返回 0；三个算法都按不带头结点的单链表写，f 指向第一个数据结点
 int Max(LinkList f) {
     if (f == NULL)
         return 0;
-    if (f->next == NULL)
-        return f->data;
-    int m = Max(f->next);
-    return f->data > m ? f->data : m;
+    int m = f->data;
+    for (LinkList p = f->next; p != NULL; p = p->next) {
+        if (p->data > m)
+            m = p->data;
+    }
+    return m;
 }
 
 int Count(LinkList f) {
@@ -30,7 +31,6 @@ int Count(LinkList f) {
     return 1 + Count(f->next);
 }
 
-//n 为结点个数（用 Count(f) 得到）：平均值 = (后 n-1 个的平均值 × (n-1) + 第一个结点的值) / n
 double Average(LinkList f, int n) {
     if (f == NULL || n <= 0)
         return 0;
