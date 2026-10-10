@@ -17,12 +17,10 @@ typedef struct LNode
 int Max(LinkList f) {
     if (f == NULL)
         return 0;
-    int m = f->data;
-    for (LinkList p = f->next; p != NULL; p = p->next) {
-        if (p->data > m)
-            m = p->data;
-    }
-    return m;
+    if (f->next == NULL)
+        return f->data;
+    int m = Max(f->next);
+    return f->data > m ? f->data : m;
 }
 
 int Count(LinkList f) {
