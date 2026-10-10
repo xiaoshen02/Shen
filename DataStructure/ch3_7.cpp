@@ -8,26 +8,24 @@ using namespace std;
 
 typedef struct
 {
-    int *Q;    //队列数组
-    int front; //队头指针
-    int rear;  //队尾指针
-    int tag;   //标志：0 表示最近一次操作是出队，1 表示最近一次操作是入队
-    int m;     //队列最大可容纳的元素个数
+    int *Q;
+    int front;
+    int rear;
+    int tag; //0 = 上次是出队（front == rear 时为空），1 = 上次是入队（front == rear 时为满）
+    int m;
 } CyQueue;
 
 void Init(CyQueue &S, int m) {
     S.Q = new int[m];
     S.m = m;
     S.front = S.rear = 0;
-    S.tag = 0; //初始时是空队列
+    S.tag = 0;
 }
 
-//front == rear 且 tag == 0：上次是出队，说明队列空
 bool isEmpty(CyQueue S) {
     return S.front == S.rear && S.tag == 0;
 }
 
-//front == rear 且 tag == 1：上次是入队，说明队列满
 bool isFull(CyQueue S) {
     return S.front == S.rear && S.tag == 1;
 }
@@ -35,17 +33,17 @@ bool isFull(CyQueue S) {
 bool EnQueue(CyQueue &S, int data) {
     if (isFull(S))
         return false;
-    S.Q[S.rear] = data;          //先放元素
-    S.rear = (S.rear + 1) % S.m; //队尾后移，到末尾就绕回 0
-    S.tag = 1;                   //这次是入队
+    S.Q[S.rear] = data;
+    S.rear = (S.rear + 1) % S.m;
+    S.tag = 1;
     return true;
 }
 
 bool DeQueue(CyQueue &S, int &data) {
     if (isEmpty(S))
         return false;
-    data = S.Q[S.front];           //先取元素
-    S.front = (S.front + 1) % S.m; //队头后移，到末尾就绕回 0
-    S.tag = 0;                     //这次是出队
+    data = S.Q[S.front];
+    S.front = (S.front + 1) % S.m;
+    S.tag = 0;
     return true;
 }
