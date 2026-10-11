@@ -43,7 +43,7 @@ public:
         string ans;
         for (int k = 0; k < words.size(); k++) {
             if (k > 0) {
-                ans += ' ';
+                ans += ' ';//空格在添加单词之前加，就不会在最后多出一个空格
             }
             ans += words[k];
         }
