@@ -41,6 +41,7 @@ public:
         reverse(words.begin(), words.end());//把一个区间里的元素反过来
 
         string ans;
+        //k 是 int、words.size() 是无符号，比较会触发 -Wsign-compare 警告；单词个数很少，不影响正确性
         for (int k = 0; k < words.size(); k++) {
             if (k > 0) {
                 ans += ' ';//空格在添加单词之前加，就不会在最后多出一个空格
