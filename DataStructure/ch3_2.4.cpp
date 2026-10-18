@@ -75,7 +75,7 @@ int main() {
             Push(s, result);
         }
         else {
-            Push(s, stoi(token));    //stoi把字符串类型的整数转化为int类型的整数          
+            Push(s, stoi(token));    //stoi把字符串类型的整数转化为int类型的整数t          
         }
     }
 
