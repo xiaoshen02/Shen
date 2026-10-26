@@ -1,0 +1,18 @@
+{
+  "grip": {
+    "vertex_geometry_unchanged": true,
+    "hand_color_max_change": 0.0,
+    "belly_surface_area_before": 3.6437531683669753,
+    "belly_surface_area_after": 3.867294169899407,
+    "color": ".98, .965, .91 (v28 ivory)",
+    "mask": "v28 centre and vertical extent; soft shoulder boundary"
+  },
+  "neutral": {
+    "vertex_geometry_unchanged": true,
+    "hand_color_max_change": 0.0,
+    "belly_surface_area_before": 3.8263010642389186,
+    "belly_surface_area_after": 4.0812157290047315,
+    "color": ".98, .965, .91 (v28 ivory)",
+    "mask": "v28 centre and vertical extent; soft shoulder boundary"
+  }
+}

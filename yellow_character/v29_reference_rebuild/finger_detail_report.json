@@ -1,0 +1,42 @@
+{
+  "grip": {
+    "mode": "grip",
+    "edited_vertices": 7062,
+    "per_finger": {
+      "finger0.L": 964,
+      "finger2.L": 962,
+      "finger1.L": 960,
+      "thumb.L": 962,
+      "finger2.R": 877,
+      "finger1.R": 863,
+      "finger0.R": 878,
+      "thumb.R": 596
+    },
+    "max_finger_displacement": 0.015352804355363533,
+    "max_nonfinger_displacement": 0.0,
+    "all_skin_colors_unchanged": true,
+    "topology_unchanged": true,
+    "source_sha256": "0dd0eaee398a25a71f44667209304309cb4838ca36edd59840aded0cb6efb35a",
+    "detail": "Tapered phalanges, rounded pads, small knuckle volumes, shallow curved folds; subtle support-finger length hierarchy."
+  },
+  "neutral": {
+    "mode": "neutral",
+    "edited_vertices": 4260,
+    "per_finger": {
+      "finger0.L": 474,
+      "finger1.L": 488,
+      "finger2.L": 390,
+      "thumb.L": 777,
+      "thumb.R": 777,
+      "finger0.R": 475,
+      "finger1.R": 488,
+      "finger2.R": 391
+    },
+    "max_finger_displacement": 0.0031681036019633713,
+    "max_nonfinger_displacement": 0.0,
+    "all_skin_colors_unchanged": true,
+    "topology_unchanged": true,
+    "source_sha256": "e693db2bef20d5b2a21be24797e2d5da2bd1ecdcbb34e77e2c060477a74e98e5",
+    "detail": "Tapered phalanges, rounded pads, small knuckle volumes, shallow curved folds; subtle support-finger length hierarchy."
+  }
+}

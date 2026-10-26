@@ -1,0 +1,84 @@
+{
+  "pose": "static reference low guard, frame 1",
+  "finite_coordinates": true,
+  "evaluated_subdivision_level": 1,
+  "face": {
+    "max_feature_transform_delta": 4.76837158203125e-07,
+    "feature_meshes_unchanged": true,
+    "head_surface_distance_max": 0.0024191890843212605,
+    "head_surface_distance_p99": 0.0016822484042495476
+  },
+  "collisions": {
+    "hand_hand": 0,
+    "left_hand_torso": 0,
+    "right_hand_torso": 0,
+    "left_Sword_Blade": 0,
+    "right_Sword_Blade": 0,
+    "blade_torso": 0,
+    "left_Sword_Central_Ridge": 0,
+    "right_Sword_Central_Ridge": 0,
+    "left_Sword_Grip": 0,
+    "right_Sword_Grip": 0,
+    "left_Sword_Grip_Wrap": 0,
+    "right_Sword_Grip_Wrap": 0,
+    "left_Sword_Grip_Wrap.001": 0,
+    "right_Sword_Grip_Wrap.001": 0,
+    "left_Sword_Grip_Wrap.002": 0,
+    "right_Sword_Grip_Wrap.002": 0,
+    "left_Sword_Grip_Wrap.003": 0,
+    "right_Sword_Grip_Wrap.003": 0,
+    "left_Sword_Guard": 0,
+    "right_Sword_Guard": 0,
+    "left_Sword_Pommel": 0,
+    "right_Sword_Pommel": 0,
+    "left_Sword_Rune_00": 0,
+    "right_Sword_Rune_00": 0,
+    "left_Sword_Rune_01": 0,
+    "right_Sword_Rune_01": 0,
+    "left_Sword_Rune_02": 0,
+    "right_Sword_Rune_02": 0,
+    "left_Sword_Rune_03": 0,
+    "right_Sword_Rune_03": 0,
+    "left_Sword_Rune_04": 0,
+    "right_Sword_Rune_04": 0
+  },
+  "shoulder_deformation": {
+    "raise_left": {
+      "belly_max_displacement": 0.0,
+      "finite": true,
+      "worst_point": [
+        -0.6301692128181458,
+        -0.8789723515510559,
+        2.2724709510803223
+      ],
+      "worst_weights": {
+        "spine": 1.0
+      }
+    },
+    "raise_right": {
+      "belly_max_displacement": 0.0,
+      "finite": true,
+      "worst_point": [
+        -0.6301692128181458,
+        -0.8789723515510559,
+        2.2724709510803223
+      ],
+      "worst_weights": {
+        "spine": 1.0
+      }
+    }
+  },
+  "left_hand_vertices": 32416,
+  "left_max_hand_color_component": 0.3164556622505188,
+  "right_hand_vertices": 34349,
+  "right_max_hand_color_component": 0.316396027803421,
+  "blade_min_z": 1.052610239705503,
+  "left_grip_nearest": 0.020391684025526047,
+  "left_grip_signed_penetration_sample": 0.0,
+  "right_grip_nearest": 0.16801540553569794,
+  "right_grip_signed_penetration_sample": 0.0,
+  "skin_connected_components": [
+    171170
+  ],
+  "boundary_edges": 0
+}
