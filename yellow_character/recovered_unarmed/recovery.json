@@ -1,0 +1,31 @@
+{
+  "snapshot": "refs/codex/turn-diffs/checkpoints/07f8d38a7b2895ea9944b0978d5773fb/f78a687a8e1c87ef6f6f5bc4470e0940/1792740594694/798956ba-5dec-4ad0-99f1-a9b744ad5082",
+  "original_model_path": "yellow_character/v29_reference_rebuild/YellowFriend_v29_neutral.blend",
+  "restored": [
+    {
+      "file": "C:\\Users\\L\\Desktop\\git\\yellow_character\\recovered_unarmed\\YellowFriend_v29_1_unarmed.blend",
+      "bytes": 10042721,
+      "git_blob": "73be47a81f2c3c18ad1175c6404a27da0a5d6751"
+    },
+    {
+      "file": "C:\\Users\\L\\Desktop\\git\\yellow_character\\recovered_unarmed\\original_front.png",
+      "bytes": 225773,
+      "git_blob": "e8d1b4ed1101eef45ce7f06ba7bdb242ac04cc75"
+    },
+    {
+      "file": "C:\\Users\\L\\Desktop\\git\\yellow_character\\recovered_unarmed\\original_side.png",
+      "bytes": 166431,
+      "git_blob": "1f2afac187bc8de0c71f3bf7e40379c53ddd69fc"
+    },
+    {
+      "file": "C:\\Users\\L\\Desktop\\git\\yellow_character\\recovered_unarmed\\original_back.png",
+      "bytes": 210156,
+      "git_blob": "93fd6615229f2c75d16b9dc344d5fffada2a7063"
+    },
+    {
+      "file": "C:\\Users\\L\\Desktop\\git\\yellow_character\\recovered_unarmed\\original_build.json",
+      "bytes": 3194,
+      "git_blob": "02e44bda60cc8d52f63274b92e8188858db98c89"
+    }
+  ]
+}

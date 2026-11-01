@@ -1,0 +1,38 @@
+{
+  "model": "YellowFriend_v29_1_unarmed.blend",
+  "finger_revision": "v29.1: local knuckle/pad/crease sculpt. Other geometry, colours, rig and weapon preserved.",
+  "feet_revision": "v29: outward 56-degree forefeet, flatter sole and dorsal shape, softened toe pads. Arm/hand/face geometry unchanged.",
+  "belly_revision": "Restored v28 ivory coverage: centre z 2.64, upper radius .88, lower .81. Vertex colours only; geometry, hands, feet, face and pose unchanged.",
+  "action": "09_Neutral_threeview",
+  "vertices": 164375,
+  "external_libraries": [],
+  "unpacked_file_images": [],
+  "visible_sword_meshes": [],
+  "arms": {
+    ".L": {
+      "shoulder": [
+        -0.8500000238418579,
+        0.014999999664723873,
+        3.430000066757202
+      ],
+      "wrist": [
+        -1.1799999475479126,
+        -0.1300000101327896,
+        2.0900001525878906
+      ]
+    },
+    ".R": {
+      "shoulder": [
+        0.8500000238418579,
+        0.014999999664723873,
+        3.430000066757202
+      ],
+      "wrist": [
+        1.1799999475479126,
+        -0.1300000101327896,
+        2.0900001525878906
+      ]
+    }
+  },
+  "finite_vertices": true
+}
